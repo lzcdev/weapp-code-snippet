@@ -1,0 +1,5 @@
+.head {
+  text-align: center;
+  padding: 40rpx;
+  font-size: 40rpx;
+}
