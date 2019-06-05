@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "l-cell": "../../components/cell/cell",
+    "l-cell-group": "../../components/cell-group/cell-group" 
+  }
 }

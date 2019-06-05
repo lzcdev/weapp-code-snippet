@@ -1,0 +1,12 @@
+<view>
+  <view class='head'>
+    <text>一些小功能、demo、组件等代码片段</text>
+  </view>
+
+  <l-cell-group>
+    <l-cell menuArrow title="折叠效果" url="../fold/fold"></l-cell>
+    <l-cell menuArrow title="demo2" url=""></l-cell>
+    <l-cell menuArrow title="demo3" url=""></l-cell>
+    
+  </l-cell-group>
+</view>
