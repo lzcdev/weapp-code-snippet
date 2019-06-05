@@ -1,0 +1,37 @@
+.head {
+  text-align: center;
+  padding: 40rpx;
+  font-size: 40rpx;
+}
+
+.list_item {
+  height: 100rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  margin: 40rpx 40rpx 0 40rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.parent_title {
+  font-size: 32rpx;
+}
+
+.child_title {
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding-left: 20rpx;
+  border-bottom: 2rpx solid #EEEFF2;
+  background: #fff;
+}
+
+.list_child {
+  height: 0;
+  overflow: hidden;
+  margin: 0 40rpx;
+}
+
+.show {
+  height: auto;
+}

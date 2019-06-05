@@ -1,0 +1,16 @@
+<view class='container'>
+
+  <l-header desc="折叠效果"></l-header>
+
+  <block wx:for="{{list}}" wx:key="id">
+    <view id="{{item.id}}" class='list_item' bindtap='toggle'>
+      <view class='parent_title'>{{item.name}}</view>
+    </view>
+
+    <view class="list_child {{item.open ? 'show' : ''}}">
+      <block wx:for="{{item.page}}" wx:for-item="item" wx:key="*this">
+        <view class='child_title'>{{item}}</view>
+      </block>
+    </view>
+  </block>
+</view>
