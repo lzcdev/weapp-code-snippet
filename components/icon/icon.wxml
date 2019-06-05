@@ -1,0 +1,3 @@
+<view class="icon-item {{rotate?'x-rotate':''}}" style='color:{{color}};font-size:{{size}}rpx;'>
+  <text class="icon-{{name}}"></text>
+</view>
