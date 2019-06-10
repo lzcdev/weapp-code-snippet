@@ -5,16 +5,16 @@
 ```
 ├── LICENSE 
 ├── README.md
-├── app.js 应用入口
-├── app.json  全局配置文件
-├── app.wxss  全局css文件
-├── components 组件库
-│   ├── cell cell组件
-│   ├── cell-group  cell-group组件
-│   └── icon icon组件
-├── pages 视图层
-│   ├── fold 折叠效果
-│   ├── index 首页
+├── app.js            应用入口
+├── app.json          全局配置文件
+├── app.wxss          全局css文件
+├── components        组件库
+│   ├── cell            cell组件
+│   ├── cell-group      cell-group组件
+│   └── icon            icon组件
+├── pages             视图层
+│   ├── fold            折叠效果
+│   ├── index           首页
 │   └── logs
 ├── project.config.json
 ├── sitemap.json

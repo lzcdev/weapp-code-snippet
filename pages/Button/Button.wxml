@@ -1,0 +1,43 @@
+<view class="title">一般用法</view>
+
+<view>
+  <l-button bindtap='handleClick'>默认按钮</l-button>
+  <l-button bindtap='handleClick' type='error' long='true'>联通两边按钮</l-button>
+  <l-button bindtap='handleClick' type='primary'>Primary</l-button>
+  <l-button bindtap='handleClick' type='ghost'>Ghost</l-button>
+  <l-button bindtap='handleClick' type='info'>Info</l-button>
+  <l-button bindtap='handleClick' type='success'>Success</l-button>
+  <l-button bindtap='handleClick' type='warning'>Warning</l-button>
+  <l-button bindtap='handleClick' type='error'>Error</l-button>
+
+</view>
+
+<view class='title'>行内按钮</view>
+<view>
+  <l-button bind:click="handleClick" inline>默认按钮</l-button>
+  <l-button bind:click="handleClick" type="error" inline>联通两边按钮</l-button>
+  <l-button bind:click="handleClick" type="primary" inline>Primary</l-button>
+  <l-button bind:click="handleClick" type="ghost" inline>Ghost</l-button>
+  <l-button bind:click="handleClick" type="info" inline>Info</l-button>
+  <l-button bind:click="handleClick" type="success" inline>Success</l-button>
+  <l-button bind:click="handleClick" type="warning" inline>Warning</l-button>
+  <l-button bind:click="handleClick" type="error" inline>Error</l-button>
+</view>
+
+<view class='title'>不同尺寸</view>
+<view>
+  <l-button bind:click="handleClick">默认96rpx高度</l-button>
+  <l-button bind:click="handleClick" size="64">设置64rpx高度</l-button>
+  <l-button bind:click="handleClick" size="120">设置120rpx高度</l-button>
+</view>
+
+<view class='title'>圆角</view>
+<view>
+  <l-button bind:click="handleClick" shape="circle">大尺寸</l-button>
+</view>
+
+<view class='title'>禁止点击</view>
+<view>
+  <l-button bind:click="handleClick" shape="circle" disabled loading>大尺寸</l-button>
+</view>
+<ad unit-id="adunit-059905e4f221fbeb"></ad>

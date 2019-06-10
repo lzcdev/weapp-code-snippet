@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "components/cell-group/cell-group",
+    "pages/fold/fold",
+    "pages/Button/Button"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,7 +1,8 @@
 .head {
   text-align: center;
   padding: 40rpx;
-  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+ 
   font-weight: 700;
   font-size: 40rpx;
+  background-color: #fff;
 }
