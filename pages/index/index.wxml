@@ -6,7 +6,7 @@
   <l-cell-group>
     <l-cell menuArrow title="折叠效果" url="../fold/fold"></l-cell>
     <l-cell menuArrow title="Button" url="../Button/Button"></l-cell>
-    <l-cell menuArrow title="demo3" url=""></l-cell>
-
+    <l-cell menuArrow title="仿微信界面" url="../wechat/wechat"></l-cell>
+    <l-cell menuArrow title="音乐播放" url="../playmusic/playmusic"></l-cell>
   </l-cell-group>
 </view>

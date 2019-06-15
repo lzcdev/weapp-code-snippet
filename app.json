@@ -3,7 +3,9 @@
     "pages/index/index",
     "components/cell-group/cell-group",
     "pages/fold/fold",
-    "pages/Button/Button"
+    "pages/Button/Button",
+    "pages/wechat/wechat",
+    "pages/playmusic/playmusic"
   ],
   "window": {
     "backgroundTextStyle": "light",

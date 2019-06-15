@@ -1,0 +1,7 @@
+<view class='playBody'>
+  <view class='slider_body'>
+    <text class='current_time'>{{currentTime}}</text>
+    <slider class='slider' bindchange="changeValue" value="{{value}}" block-size='12' block-color='#fff' max="{{total}}"/>
+    <text class='total_time'>{{duration}}</text>
+  </view>
+</view>
